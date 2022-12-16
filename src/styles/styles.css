@@ -1,0 +1,146 @@
+* {
+  font-family: "Lato", "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: #B0B4BF;
+  box-sizing: border-box;
+  background-color: #B0B4BF;
+  color: white;
+}
+
+body {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.container {
+  width: 95%;
+  display: flex;
+}
+
+.header {
+  width: 95%;
+  display: flex;
+}
+.header_left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #28303B;
+}
+.header_left--contact {
+  padding: 5px;
+  background-color: #28303B;
+  border: 1px solid #E5AA0E;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 230px;
+}
+.header_left--contact p {
+  background-color: #28303B;
+  margin: 5px;
+}
+.header_left--contact i {
+  margin-right: 5px;
+  color: #E5AA0E;
+  background-color: #28303B;
+}
+.header_left img {
+  width: 35%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 10px;
+}
+.header_left--title {
+  width: 100%;
+  background-color: #28303B;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header_left h1,
+.header_left h2 {
+  background-color: #E5AA0E;
+  padding: 5px;
+  width: 230px;
+}
+.header_left h2 {
+  margin-left: 20px;
+}
+.header_right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: white;
+}
+.header_right--button {
+  background-color: #28303B;
+  padding: 10px;
+  border: 1px solid white;
+  min-width: 130px;
+  text-align: center;
+  height: 40px;
+}
+
+.leftside {
+  width: 50%;
+  background-color: #28303B;
+}
+.leftside p {
+  background-color: #28303B;
+  margin: 15px;
+  line-height: 1.5em;
+}
+.leftside p strong {
+  background-color: #28303B;
+}
+.leftside h2 {
+  background-color: #28303B;
+  margin: 15px;
+  position: relative;
+}
+.leftside h2::before {
+  content: "";
+  background-color: #E5AA0E;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 75px;
+  height: 3px;
+}
+.leftside_line {
+  background-color: #E5AA0E;
+  width: 75%;
+  height: 3px;
+  margin: auto;
+}
+.leftside_competences {
+  background-color: #28303B;
+  margin: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.leftside_competences img {
+  height: 35px;
+}
+
+.rightside {
+  width: 50%;
+  background-color: white;
+  color: #28303B;
+}/*# sourceMappingURL=styles.css.map */

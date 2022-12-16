@@ -1,0 +1,33 @@
+* {
+  font-family: "Lato", "Times New Roman", Times, serif;
+  font-size: $font_s;
+  color: $color_third;
+  box-sizing: border-box;
+  background-color: $color_third;
+  color: $color_fourth;
+}
+
+body {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  margin-top: $margin_l;
+  margin: auto;
+}
+
+h1 {
+  font-size: $font_l;
+}
+
+h2 {
+  font-size: $font_ml;
+}
+
+h3 {
+  font-size: $font_m;
+}
+
+.container {
+  width: 95%;
+  display: flex;
+}

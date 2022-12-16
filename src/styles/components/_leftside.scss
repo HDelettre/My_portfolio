@@ -1,0 +1,48 @@
+.leftside {
+  width: 50%;
+  background-color: $color_first;
+
+  p {
+    background-color: $color_first;
+    margin: $margin_l;
+    line-height: 1.5em;
+
+    strong {
+      background-color: $color_first;
+    }
+  }
+
+  h2 {
+    background-color: $color_first;
+    margin: $margin_l;
+    position: relative;
+    &::before {
+      content: "";
+      background-color: $color_second;
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      width: 75px;
+      height: 3px;
+    }
+  }
+
+  &_line {
+    background-color: $color_second;
+    width: 75%;
+    height: 3px;
+    margin: auto;
+  }
+
+  &_competences {
+    background-color: $color_first;
+    margin: $margin_l;
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
+      height: 35px;
+    }
+  }
+
+}

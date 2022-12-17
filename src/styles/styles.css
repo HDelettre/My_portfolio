@@ -104,7 +104,7 @@ h3 {
 .leftside p {
   background-color: #28303B;
   margin: 15px;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 .leftside p strong {
   background-color: #28303B;
@@ -143,4 +143,63 @@ h3 {
   width: 50%;
   background-color: white;
   color: #28303B;
+}
+
+.footer {
+  width: 95%;
+  background-color: #28303B;
+  display: flex;
+}
+.footer_boxleft {
+  width: 25%;
+  background-color: #28303B;
+}
+.footer_boxleft h3 {
+  background-color: #28303B;
+  margin-left: 10px;
+  position: relative;
+}
+.footer_boxleft h3::before {
+  content: "";
+  background-color: #E5AA0E;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 75px;
+  height: 3px;
+}
+.footer_boxleft ul, .footer_boxleft li {
+  line-height: 1.5em;
+  background-color: #28303B;
+}
+.footer_boxright {
+  width: 25%;
+  background-color: white;
+  color: #28303B;
+}
+.footer_boxright h3 {
+  color: #28303B;
+  background-color: white;
+  margin-left: 10px;
+  position: relative;
+}
+.footer_boxright h3::before {
+  content: "";
+  background-color: #E5AA0E;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 75px;
+  height: 3px;
+}
+.footer_boxright ul, .footer_boxright li {
+  line-height: 1.5em;
+  background-color: white;
+  color: #28303B;
+  list-style-type: none;
+}
+.footer_boxright i {
+  color: #28303B;
+  background-color: white;
+  margin-right: 5px;
 }/*# sourceMappingURL=styles.css.map */

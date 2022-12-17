@@ -28,7 +28,10 @@ const LeftSide = () => {
         site web, dynamique et responsive.
         <br />
         Ne vous inquiétez pas de l'usine à gaz qui se trouve derrière la façade,
-        cela me connait, j'en ai fait pendant des années ...
+        cela me connait, j'en ai fait pendant des années ...<br/>
+        Je recherche un poste de développeur web frontend, backend, idéalement 
+        full-stack. Tout m'intéresse dans ce vaste univers, j'ai soif d'apprendre 
+        de tout projet que vous pourriez me confier !
       </p>
 
       <div className="leftside_line"></div>
